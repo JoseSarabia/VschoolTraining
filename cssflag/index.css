@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.france-container {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    
+    display: flex;
+}
+
+.france-pillar{
+    height: 100%;
+    width: 33%;
+}
+
+#france-red{
+    background-color: red;
+}
+#france-white{
+    background-color: white;
+}
+#france-blue{
+    background: blue;
+}
+.france-text{
+    text-align: center;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.germany-container {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    
+    display: flex;
+}
+
+.germany-pillar{
+    height: 100%;
+    width: 33%;
+}
+
+#germany-green{
+    background-color: green;
+}
+#france-orange{
+    background-color: orange;
+}
+#germany-pink{
+    background: pink;
+}
+.germany-text{
+    text-align: center;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.madagascar-container {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    
+    display: flex;
+}
+
+.madagascar-pillar{
+    height: 100%;
+    width: 33%;
+}
+
+#madagascar-white{
+    background-color: white;
+}
+#madagascar-white{
+    background-color: red;
+}
+#madagascar-green{
+    background: green;
+}
+.madagascar-text{
+    text-align: center;
+}
