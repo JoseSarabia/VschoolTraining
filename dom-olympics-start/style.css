@@ -47,7 +47,7 @@
 
 .h2 {
     height: 400;
-    color: chartreuse;
+    color: rgb(231, 20, 221);
     display: flex;
     align-items: center;
     flex-direction: column;
