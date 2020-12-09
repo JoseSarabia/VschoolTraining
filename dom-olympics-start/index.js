@@ -14,6 +14,18 @@ console.log(h1Element)
 
 h1Element.textContent = "This is a box"
 
+
+
+var headerElement = document.getElementById("header2")
+console.log(headerElement)
+headerElement.textContent ="JavaScript Made this to"
+
+var h2Element = document.createElement("h2")
+console.log(h1Element)
+
+h1Element.textContent = "ppp"
+
+
 // append <h1> tag to the box <div> element: 
 // <div id="box">Hello
 //      <h1>This is a box</h1>
