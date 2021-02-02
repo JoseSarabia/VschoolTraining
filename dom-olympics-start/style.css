@@ -1,3 +1,9 @@
+body { 
+    background: url("https://images.pexels.com/photos/5101387/pexels-photo-5101387.jpeg");
+    background-size: cover;
+    background-position: top;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -43,12 +49,17 @@
     width: 300px; 
     background-color: blueviolet;
     display: block;
+
 }
 
-#h2 {
+#header2 {
     height: 100;
     color: rgb(24, 224, 57);
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+h2 { 
+    color: blue;
 }

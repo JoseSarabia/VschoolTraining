@@ -34,5 +34,7 @@ h1Element.textContent = "ppp"
 box.appendChild(h1Element)
 
 document.getElementById("clear-button").addEventListener("click",function(){
-    alert("helloWOrld")
+    // target the container element that contains the elements you want to delete 
+
+    // use removeChild to delete the elements
 });
