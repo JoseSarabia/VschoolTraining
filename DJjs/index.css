@@ -1,0 +1,151 @@
+#box {
+    width: 200px ;
+    height:200px ;
+    border: 1px solid black ;
+    background-color: blue ;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+#box:hover {
+       background-color: burlywood;
+       width: 300px;
+       text-align: center;
+}
+
+
+
+#box1 {
+    width: 200px ;
+    height:200px ;
+    border: 1px solid black ;
+    background-color: gray ;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+
+#box1:hover {
+    background-color: rgb(195, 135, 222);
+    width: 300px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+
+
+
+
+
+#box2 {
+    width: 200px ;
+    height:200px ;
+    border: 1px solid black ;
+    background-color: green ;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+    
+
+
+#box2:hover {
+    background-color: rgb(195, 135, 222);
+    width: 300px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+
+
+
+
+#box3 {
+    width: 200px ;
+    height:200px ;
+    border: 1px solid black ;
+    background-color:  orange ;
+    place-items: center;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+
+
+#box3:hover {
+    background-color: rgb(195, 135, 222);
+    width: 300px;
+    text-align: center;
+}
+
+#box4 {
+    width: 200px ;
+    height:200px ;
+    border: 1px solid black ;
+    background-color:brown ;
+    place-items: center;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+
+#box4:hover {
+    background-color: rgb(195, 135, 222);
+    width: 300px;
+    text-align: center;
+}
+
+
+
+#box5 {
+    width: 200px ;
+    height:200px ;
+    border: 1px solid black ;
+    background-color:  pink ;
+    place-items: center;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+
+#box5:hover {
+    background-color: rgb(195, 135, 222);
+    width: 300px;
+    text-align: center;
+    box-shadow: rgb(20, 20, 20);
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+
+
+
+
+#box6 {
+    width: 200px ;
+    height:200px ;
+    border: 1px solid black ;
+    background-color:  orange ;
+    place-items: center;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+
+#box6:hover {
+    background-color: rgb(195, 135, 222);
+    width: 300px;
+    text-align: center;
+}
+

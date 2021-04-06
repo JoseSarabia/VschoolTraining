@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!--onsubmit fire the handle submit fucntion--> 
+    <form  onsubmit="handleSubmit(event)">
+        <input type="text" name = "title" placeholder="To do List Title">
+        <input type="tel" name = "price" placeholder="To do List Price">
+        <input type="text" name = "description" placeholder="To do List description">
+        <input type="text" name = "imgUrl" placeholder="To do List image Url">
+        <button type = "submit">submit</button>
+    </form>
+    <div id = "list"> </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    
+    <script src="index.js"></script>
+    
+</body>
+</html>

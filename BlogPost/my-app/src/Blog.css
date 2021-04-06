@@ -1,0 +1,20 @@
+
+.subTitle {
+    font-size: 26px;
+    margin-top: -5px;
+    
+    
+}
+.title1{
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+.authorDate{
+    font-size: 16px;
+    margin-top: -5px;
+
+}
+.blogContainer{
+    max-width: 600px;
+}

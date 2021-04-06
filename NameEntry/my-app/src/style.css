@@ -1,0 +1,18 @@
+.container{
+    margin: 30%;
+    display: grid;
+    grid-template: repeat(0, 200px) / repeat(150, 30fr);
+    grid-gap: 10px;
+    
+ 
+
+
+
+
+
+}
+
+.inputField{
+    width: 150px;
+
+}

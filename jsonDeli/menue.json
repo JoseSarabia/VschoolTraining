@@ -1,0 +1,70 @@
+{
+    "Appetizers": [
+        {
+            "name": "Soup",
+            "indredients": [ "red pepper", "herds", "salt", "chicken"],
+            "description": " This soup is very hot."
+
+        },
+        {
+            "name": "turkey sub",
+            "indredients": [ "turkey slices", "lettus", "totmatoes", "pepper", "muster", "salt"],
+            "description": " This sub only come in foot long sizes."
+
+        },
+
+        {
+
+            "name": "meatball sub",
+            "indredients": [ "meatballs", "lettus", "totmatoes", "pepper", "muster", "salt"],
+            "description": "Meatballs are cooked over grill and then soak in our speacial sauce."
+        },
+ 
+        {
+            "name": "choclate cake",
+            "indredients": [ "choclate icing", "milk", "eggs"],
+            "description": " Cakes are only sold in slices."
+        },
+            
+        {
+            "name": "coke",
+            "indredients": [ "sugar", "water"],
+            "description": " Nice refershing ice glass of coke."
+        }
+    ],
+          
+        "cold cut sandwiches": [
+            {
+                "name": "blt",
+                "ingredients": ["bacon", "lettus", "tomatoes", "mayo"],
+                "description": "This this the best BLT in town."
+            },
+
+            {
+                "name": "ham sanwich",
+                "ingredients": ["mayo", "salt", "pepper"],
+                "description": "Simple samwich to kill your hunger."
+            }
+        ],
+    
+           
+          
+        
+            "hot sandwiches": [
+                {
+                    "name": "meatball sub",
+                    "indredients": [ "meatballs", "lettus", "totmatoes", "pepper", "muster", "salt"],
+                    "description": "Meatballs are cooked over grill and then soak in our speacial sauce."
+                },
+
+                {
+                    "name": "chillie sub",
+                    "indredients": [ "meatballs", "lettus", "pepper", "muster", "salt"],
+                    "description": "Meatballs are cooked over fire grill"
+                }
+            ]
+}   
+                
+         
+
+    

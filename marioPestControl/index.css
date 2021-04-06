@@ -1,0 +1,74 @@
+
+title{
+    background-color: rgb(228, 15, 33);
+       padding: 30px;
+       text-align: center;
+       font-size: 35px;
+       color: white;
+       border-radius: 25px;
+       font-style: italic;
+}
+
+
+
+body {
+
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+   }
+
+ p {
+     outline-color: blue;
+     text-align: center;
+     color: blueviolet;
+     font-size: 25px;
+     font-style: italic;
+ }
+
+
+
+   
+   h1 {
+       background-color: rgb(228, 15, 33);
+       padding: 30px;
+       text-align: center;
+       font-size: 35px;
+       color: white;
+       border-radius: 25px;
+       font-style: italic;
+       
+   
+   }
+
+h2 {
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    font-size: px;
+    color: white;
+    border-radius: 10px;
+    font-style: italic;
+   }
+   
+
+h3{
+    background-color: greenyellow;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    border-radius: 25px;
+    font-style: italic;
+}
+
+ 
+footer{
+    text-align: center;
+}
+
+
+
+

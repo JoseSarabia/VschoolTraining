@@ -1,0 +1,14 @@
+.DiceContainer{
+    border: 100px solid red ;
+    margin: 20% ;
+    
+}
+.InRowDice{
+    display:flex;
+    
+    
+}
+
+.stylebutton{
+   
+}

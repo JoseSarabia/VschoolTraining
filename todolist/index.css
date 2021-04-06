@@ -1,0 +1,20 @@
+#list{
+    width: 75%;
+    display: block;
+    margin: 30px auto;
+    
+}
+#list .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+}
+#list .row img{
+    max-width: 100px;
+    object-fit: contain;
+}
+#body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT31MTSWuC_XrYT732JOQ4tJdgLP4nFfRXwKQ&usqp=CAU");
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+     </head>
+
+     <body>
+         
+        
+        <div id= "firstSet">
+            <h1>Multiply</h1>
+        <input type="number" id="mFirstNumber" name="firstNumber">
+        <input type="number" id="mSecondNumber" name="secondNumber">
+
+        <button id="mulBtn" onclick="mulFunc()">Multiply</button>
+        <p id="mulTotal"></p>
+
+         </div>
+
+         <div id= "secondSet">
+            <h2>Subtract</h2>
+            <input type="number" id="sFirstNumber" name="firstNumber">
+            <input type="number" id="sSecondNumber" name="secondNumber">
+    
+            <button id="subBtn" onclick="subFunc()">subtract</button>
+            <p id="subTotal"></p>
+
+         </div>
+
+         <div id= "thirdSet">
+            <h3>ADD</h3>
+            <input type="number" id="tFirstNumber" name="firstNumber">
+            <input type="number" id="tSecondNumber" name="secondNumber">
+    
+            <button id="addBtn" onclick="addFunc()">Add</button>
+            <p id="addTotal"></p>
+
+         </div>
+         <button onclick="clearResult()">Clear</button>
+         <script src="index.js"></script>
+     </body>
+</html>
