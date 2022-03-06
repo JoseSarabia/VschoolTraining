@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 65;
+    background: green;
+    color:black;
+    padding: 20px;
+}
+.headerImage{
+    margin-right: 6px;
+    height: 159px;
+}
+
+.headerName{
+    font-size: 40px;
+    margin-right: auto;
+}
+
+.headerProject{
+    font-size: 30px;
+    font-weight: 600;
+}
