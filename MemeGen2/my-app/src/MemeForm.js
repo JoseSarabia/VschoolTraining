@@ -17,7 +17,25 @@ export default function MemeForm() {
     const [memeList, setMemeList] = useState([])
     const [allMemeImages, setAllMemeImages] = useState([])
 
+    const InlineEdit = ({ value, setValue}) => {
+    const [editingValue, setEditingValue] = useState(value);
+    const onChange = (event) => setEditingValue(event.target.value);
 
+    const onKeyDown = (event ) => {
+        if (event.key === "Enter" || event.key === "Escape"){
+            event.target.blur();
+        }
+    }
+    const onBlur = (event) => {
+        if (event.target.value.trim() === "") {
+          setEditingValue(value);
+        } else {
+          setValue(event.target.value)
+        }
+      }
+
+
+    }
      
     useEffect(() => {
         async function getMemes() {
@@ -117,6 +135,14 @@ export default function MemeForm() {
                 value={meme.bottomText}
                 onChange={handleChange}
                 />
+                <input
+                type="text"
+                aria-label="Field name"
+                value={editingValue}
+                 onChange={onChange}
+                onKeyDown={onKeyDown}
+                onBlur={onBlur}
+                 />
 
                 <button
                 className="form--buttom"
@@ -130,30 +156,20 @@ export default function MemeForm() {
 
                 <button 
                 onClick={handleSubmit}>Submit</button>
-
+                
             </div>
 
             <div className="meme">
                 <img src={meme.randomImage} className="meme--image"/>
                 <h2 className="meme--text top">{meme.topText}</h2>
                 <h2 className="meme--text bottom">{meme.bottomText}</h2>
+           
+           
             </div>
-                <div></div>
-             {/* <div> */}
+            
+             <div>
 
-                {/* <ol> */}
-                    {/* {memeList.map(meme => */}
-                         {/* <li> */}
-                            {/* <div> */}
-                                {/* <a href={meme.randomImage} target="_blank">{meme.randomImage}</a> */}
-                                {/* <button className="form--buttom" onClick={deleteButton(meme.randomImage)}>Delete Meme</button> */}
-
-                            {/* </div> */}
-
-                            {/* </li>)} */}
-
-                            {/* </ol> */}
-                            {/* </div> */}
+             </div>
              <div>
                 <ol>
                     {memeList.map((meme, index) => 
